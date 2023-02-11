@@ -24,19 +24,19 @@ public class PluginConfiguration : BasePluginConfiguration
 
     #region General
 
-    public string Server { get; set; } = "https://api.metatube.internal";
+    public string Server { get; set; } = "http://172.18.0.14:8080";
 
     public string Token { get; set; } = string.Empty;
 
-    public bool EnableCollections { get; set; } = false;
+    public bool EnableCollections { get; set; } = true;
 
     public bool EnableDirectors { get; set; } = true;
 
     public bool EnableRatings { get; set; } = true;
 
-    public bool EnableTrailers { get; set; } = false;
+    public bool EnableTrailers { get; set; } = true;
 
-    public bool EnableRealActorNames { get; set; } = false;
+    public bool EnableRealActorNames { get; set; } = true;
 
     #endregion
 
