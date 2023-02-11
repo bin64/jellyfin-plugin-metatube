@@ -48,7 +48,7 @@ jobs:
           git push -f -u origin dist
 
       - name: Upload Plugins
-        uses: bin64/action-gh-release@v1
+        uses: softprops/action-gh-release@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
